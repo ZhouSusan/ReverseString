@@ -14,5 +14,6 @@ class ReverseString {
             System.out.print(inputStr.charAt(i - 1));
             i-=1;
         }
+        scanner.close();
     }
 }
